@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: cursive;
+}
+.navbar {
+    width: 86%;
+    display: flex;
+    margin-left: 50%;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(49, 169, 169);
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover {
+    color: rgb(230, 104, 59);
+}
+.slide-frame {
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+.image1 img{
+    margin-left: 25%;
+    margin-top: 10%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 100px;
+    width: 100px;
+}
+.image2 img{
+    margin-left: 40%;
+    margin-top: 10%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 100px;
+    width: 100px;
+}
+
+.image3 img{
+    margin-left: 55%;
+    margin-top: 10%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 100px;
+    width: 100px;
+}
+

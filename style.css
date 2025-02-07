@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: cursive;
+}
+.navbar {
+    width: 86%;
+    display: flex;
+    margin-left: 50%;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(49, 169, 169);
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover {
+    color: rgb(230, 104, 59);
+}
+.home {
+    margin-left: 7%;
+    margin-top: 6%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    font-family: cursive;
+}
+.home h1 {
+    font-size: 65px;
+    color: rgb(67, 91, 27);
+}
+.home h3{
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: rgb(75, 111, 8);
+}
+.home p {
+    color: rgb(98, 131, 37);
+    font-size: 18px;
+}
